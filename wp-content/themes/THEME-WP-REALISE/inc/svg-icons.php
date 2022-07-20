@@ -1,6 +1,6 @@
 <?php
 /**
- * Twenty Twenty SVG Icon helper functions
+ * REALISE_theme SVG Icon helper functions
  *
 * @package WordPress
  * @subpackage REALISE_Theme

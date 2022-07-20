@@ -1,6 +1,6 @@
 <?php
 /**
- * Twenty Twenty Starter Content
+ * REALISE_theme Starter Content
  *
  * @link https://make.wordpress.org/core/2016/11/30/starter-content-for-themes-in-4-7/
  *
@@ -207,7 +207,7 @@ function themerealise_get_starter_content() {
 	);
 
 	/**
-	 * Filters Twenty Twenty array of starter content.
+	 * Filters REALISE_theme array of starter content.
 	 *
 	 * @since REALISE_Theme 3000.1.0
 	 *

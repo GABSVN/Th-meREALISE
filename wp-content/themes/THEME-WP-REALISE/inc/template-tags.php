@@ -349,7 +349,7 @@ function themerealise_get_post_meta( $post_id = null, $location = 'single-top' )
 				 * Allow output of additional post meta info to be added by child themes and plugins.
 				 *
 				 * @since REALISE_Theme 3000.1.0
-				 * @since Twenty Twenty 1.1 Added the `$post_meta` and `$location` parameters.
+				 * @since REALISE_theme 1.1 Added the `$post_meta` and `$location` parameters.
 				 *
 				 * @param int    $post_id   Post ID.
 				 * @param array  $post_meta An array of post meta information.
@@ -476,7 +476,7 @@ function themerealise_get_post_meta( $post_id = null, $location = 'single-top' )
 				 * Allow output of additional post meta info to be added by child themes and plugins.
 				 *
 				 * @since REALISE_Theme 3000.1.0
-				 * @since Twenty Twenty 1.1 Added the `$post_meta` and `$location` parameters.
+				 * @since REALISE_theme 1.1 Added the `$post_meta` and `$location` parameters.
 				 *
 				 * @param int    $post_id   Post ID.
 				 * @param array  $post_meta An array of post meta information.

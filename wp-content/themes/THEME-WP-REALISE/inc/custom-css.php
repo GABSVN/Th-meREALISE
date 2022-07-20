@@ -1,6 +1,6 @@
 <?php
 /**
- * Twenty Twenty Custom CSS
+ * REALISE_theme Custom CSS
  *
 * @package WordPress
  * @subpackage REALISE_Theme
