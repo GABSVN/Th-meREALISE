@@ -1,6 +1,6 @@
 <?php
 /**
- * A template partial to output pagination for the Twenty Twenty default theme.
+ * A template partial to output pagination for the REALISE theme default theme.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
