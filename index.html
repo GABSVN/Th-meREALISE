@@ -1,0 +1,76 @@
+<?php
+//echo 'salut à tutti';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div class=" header">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: hotpink;
+            height: 200px;
+        }
+
+        .header-text {
+            background-color: orange;
+        }
+
+        form {
+            display: flex;
+            justify-content: flex-end;
+            align-content: flex-end;
+        }
+
+        span {
+            height: 100px;
+            width: 100px;
+        }
+
+        div {
+            background-color: rgb(253, 219, 236);
+            height: 100px;
+        }
+
+        p {
+            background-color: rgb(255, 245, 226);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p class="header-text">Header</p>
+        <form class="search">
+            <label for="fname">rechercher:</label><br>
+            <input type="search" id="search" name="search"><br>
+            <input type="submit">
+        </form>
+        <span class="logo">get_custom_LOGOGOGO</span>
+    </div>
+
+    <div class="menu">
+        < ? php include 'menu.php' ;?>
+    </div>
+    <div class="content">
+        <p>Content</p>
+        < ? php get_content();?>
+    </div>
+    <div class="footer-1">
+        <p>Footer 1</p>
+    </div>
+    <div class="footer-2">
+        <p>Footer 2</p>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+        < ? php get_footer();?>
+    </div>
+    <!-- -->
+</body>
+
+</html>
