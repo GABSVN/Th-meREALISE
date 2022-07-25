@@ -20,6 +20,12 @@
             background-color: orange;
         }
 
+        .top {
+            background-color: hotpink;
+            display: flex;
+            height: 20px
+        }
+
         form {
             display: flex;
             justify-content: flex-end;
@@ -29,11 +35,16 @@
         span {
             height: 100px;
             width: 100px;
+            margin-right: auto;
         }
-        .menu{
-            height:30px;
+
+        .menu {
+            height: 30px;
             background-color: rgb(241, 156, 199);
 
+        }
+        li {
+            display: inline-block;
         }
         .content {
 
@@ -94,6 +105,7 @@
 
         p {
             background-color: rgb(255, 245, 226);
+        
         }
     </style>
 </head>
@@ -101,16 +113,25 @@
 <body>
     <div class="header">
         <p class="header-text">Header</p>
-        <form class="search">
-            <label for="fname">rechercher:</label><br>
-            <input type="search" id="search" name="search"><br>
-            <input type="submit">
-        </form>
-        <span class="logo">get_custom_LOGOGOGO</span>
+        <div class="top">
+            <span class="logo">get_custom_LOGOGOGO</span>
+            <form class="search">
+                <label for="fname">rechercher:</label><br>
+                <input type="search" id="search" name="search"><br>
+                <input type="submit">
+            </form>
+        </div>
+        <h6>Slogan && banner</h6>
     </div>
 
     <div class="menu">
-        < ? php include 'menu.php' ;?>
+        <ul>
+            <li>< ? php include 'menu.php' ;?></li>
+            <li>link1</li>
+            <li>link2</li>
+            <li>link3</li>
+        </ul>
+     
     </div>
     <div class="content">
         <div class="body">
@@ -125,7 +146,7 @@
             </div>
             <div class="aside-droite">
                 <p> aside droite</p>
-            </div>  
+            </div>
         </div>
         <div class="footer-1">
             <p>Footer 1</p>
