@@ -3,7 +3,7 @@
 function themerealise_register_widget(){
 
     register_sidebar(array(
-        'name'  => __( 'Primary Sidebar', 'theme_name' ),
+        'name'  => __( 'Primary Sidebar', 'themerealise' ),
         ) );
 };
 
