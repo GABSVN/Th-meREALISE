@@ -14,6 +14,6 @@
         $title = "Vous avez recherché : " . get_search_query();
     }
     else {
-        $title = 'Le Blog';
+        $title = 'Le thème';
     }
 ?>
