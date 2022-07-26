@@ -6,10 +6,14 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
+ * 
+ * 
 * @package WordPress
  * @subpackage REALISE_Theme
  * @since REALISE_Theme 3000.1.0
  */
+
+
 
 ?>
 			<footer id="site-footer" class="header-footer-group">
@@ -25,7 +29,7 @@
 								_x( 'Y', 'copyright date format', 'themerealise' )
 							);
 							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+							<a href="<?php echo esc_url('https://www.realise.ch/fr/formations-coaching-la-formation-digitale'); ?>"><?php bloginfo( 'name' ); ?></a>
 						</p><!-- .footer-copyright -->
 
 						<?php
@@ -35,8 +39,8 @@
 						?>
 
 						<p class="powered-by-wordpress">
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'themerealise' ) ); ?>">
-								<?php _e( 'Powered by WordPress', 'themerealise' ); ?>
+							<a href="<?php echo esc_url( __( 'https://www.realise.ch/fr/formations-coaching-la-formation-digitale', 'themerealise' ) ); ?>">
+								<?php _e( 'Developped by Team REALISE', 'themerealise' ); ?>
 							</a>
 						</p><!-- .powered-by-wordpress -->
 
@@ -46,18 +50,25 @@
 						<span class="to-the-top-long">
 							<?php
 							/* translators: %s: HTML character for up arrow. */
-							printf( __( 'To the top %s', 'themerealise' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
+
+							printf( __('<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg" class="img-ToTheTOP"> %s', 'themerealise' ), 
+							'<span class="img-mini" aria-hidden="true">
+							<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg">
+							</span>' );
 							?>
 						</span><!-- .to-the-top-long -->
 						<span class="to-the-top-short">
 							<?php
 							/* translators: %s: HTML character for up arrow. */
-							printf( __( 'Up %s', 'themerealise' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
+							printf( __( '<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg" class="img-ToTheTOP"> %s', 'themerealise' ), '<span class="img-mini" aria-hidden="true">
+							<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg">
+							</span>' );
 							?>
 						</span><!-- .to-the-top-short -->
 					</a><!-- .to-the-top -->
 
 				</div><!-- .section-inner -->
+
 
 			</footer><!-- #site-footer -->
 

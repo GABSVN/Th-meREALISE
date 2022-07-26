@@ -14,9 +14,14 @@ get_header();
 
 	<div class="section-inner thin error404-content">
 
-		<h1 class="entry-title"><?php _e( 'Page Not Found', 'themerealise' ); ?></h1>
+		<h1 class="entry-title"><?php _e( 'Oups!!', 'themerealise' ); ?></h1>
 
-		<div class="intro-text"><p><?php _e( 'The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place.', 'twentytwenty' ); ?></p></div>
+		<div class="intro-text">
+			<p><?php _e( 'Du côté obscur de la force tu es tombé..
+				Vers la lumière il te faut revenir!!', 'themerealise' ); ?></p>
+		</div>
+
+		
 
 		<?php
 		get_search_form(
@@ -26,9 +31,20 @@ get_header();
 		);
 		?>
 
+
 	</div><!-- .section-inner -->
 
 </main><!-- #site-content -->
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="img-404-image">
+			<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Yoda-Bby.gif" class="img-Yoda">
+</div>	
+
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 
