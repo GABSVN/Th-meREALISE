@@ -28,3 +28,4 @@
                 Publié le <?php the_time( get_option( 'date_format' ) ); ?> 
                 par <?php the_author(); ?> • <?php comments_number(); ?>
             </p>
+
