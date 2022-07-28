@@ -6,14 +6,10 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * 
- * 
 * @package WordPress
  * @subpackage REALISE_Theme
  * @since REALISE_Theme 3000.1.0
  */
-
-
 
 ?>
 			<footer id="site-footer" class="header-footer-group">
@@ -51,28 +47,49 @@
 							<?php
 							/* translators: %s: HTML character for up arrow. */
 
-							printf( __('<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg" class="img-ToTheTOP"> %s', 'themerealise' ), 
-							'<span class="img-mini" aria-hidden="true">
-							<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg">
-							</span>' );
+							
+
+							printf( __('<img src= "wp-content/themes/THEME-WP-REALISE/assets/images/Yoda-Bby.gif" class="img-ToTheTOP" alt="Faites défiler vers le haut"> %', 'themerealise' ), 
+							'<span class="arrow" aria-hidden="true">&uarr;</span>' );
 							?>
 						</span><!-- .to-the-top-long -->
 						<span class="to-the-top-short">
 							<?php
 							/* translators: %s: HTML character for up arrow. */
-							printf( __( '<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg" class="img-ToTheTOP"> %s', 'themerealise' ), '<span class="img-mini" aria-hidden="true">
-							<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg">
-							</span>' );
+							printf( __( 'Up %s', 'themerealise' ), '<span class="arrow" aria-hidden="true">&uarr;</span>' );
 							?>
 						</span><!-- .to-the-top-short -->
 					</a><!-- .to-the-top -->
 
 				</div><!-- .section-inner -->
 
-
 			</footer><!-- #site-footer -->
 
-		<?php wp_footer(); ?>
+		
+			<?php wp_footer() ?>
+<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                       
+                    </div>
+                    
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">copyright 2022 @Realise</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+		
+			<?php wp_footer(); ?>
 
 	</body>
 </html>
