@@ -46,7 +46,9 @@ la fonction get_option() permet de récupérer la valeur indiquée dans Réglage
 
 <?php get_footer(); ?>
 
-<!-- https://wpchannel.com/wordpress/tutoriels-wordpress/creer-page-darchives-articles-classes-categories/
- https://code.tutsplus.com/articles/create-a-wordpress-archives-template-for-your-theme--wp-23384
-https://wpfr.net/support/sujet/trouver-le-fichier-archive-php/-->
+<!--
+https://wpchannel.com/wordpress/tutoriels-wordpress/creer-page-darchives-articles-classes-categories/
+https://code.tutsplus.com/articles/create-a-wordpress-archives-template-for-your-theme--wp-23384
+https://wpfr.net/support/sujet/trouver-le-fichier-archive-php/
+-->
 
