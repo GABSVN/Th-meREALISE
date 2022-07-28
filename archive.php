@@ -29,3 +29,7 @@
                 par <?php the_author(); ?> • <?php comments_number(); ?>
             </p>
 
+<!-- https://wpchannel.com/wordpress/tutoriels-wordpress/creer-page-darchives-articles-classes-categories/
+ https://code.tutsplus.com/articles/create-a-wordpress-archives-template-for-your-theme--wp-23384
+https://wpfr.net/support/sujet/trouver-le-fichier-archive-php/
+-->
