@@ -46,25 +46,19 @@
 
 					</div><!-- .footer-credits -->
 
-					<a class="to-the-top" href="#site-header">
+					<a class="img-mini" href="#site-header">
 						<span class="to-the-top-long">
 							<?php
 							/* translators: %s: HTML character for up arrow. */
 
 							printf( __('<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg" class="img-ToTheTOP"> %s', 'themerealise' ), 
-							'<span class="img-mini" aria-hidden="true">
-							<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg">
-							</span>' );
+							'' );
 							?>
 						</span><!-- .to-the-top-long -->
-						<span class="to-the-top-short">
-							<?php
-							/* translators: %s: HTML character for up arrow. */
-							printf( __( '<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg" class="img-ToTheTOP"> %s', 'themerealise' ), '<span class="img-mini" aria-hidden="true">
-							<img src= "/wp-content/themes/THEME-WP-REALISE/assets/images/Réalise-white-A-logo3.jpg">
-							</span>' );
-							?>
-						</span><!-- .to-the-top-short -->
+
+
+
+						
 					</a><!-- .to-the-top -->
 
 				</div><!-- .section-inner -->
