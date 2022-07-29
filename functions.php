@@ -1,22 +1,33 @@
 
 <?php
 // Mettre la feuille de style css
-function themerealise_style_css(){
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
+function themerealise_style_css()
+{
+    wp_enqueue_style('style', get_stylesheet_uri());
 }
 
 add_action('wp_enqueue_scripts', 'themerealise_style_css');
 
 // ajouter l'inteface widget dans le back office
-function themerealise_register_widget(){
+function themerealise_register_widget()
+{
 
-    register_sidebars( 2, array( 
-        'name' => 'aside-%d',
-        'class' => 'aside-%d',
-        'before_widget' => '<aside id="%1$s" class="widget %2$s aside-%d">',
+    register_sidebar(array(
+        'name'          => 'aside-gauche', 'themerealise',
+        'id'            => 'sidebar-1',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
-        'before_title'  => '<h2 class="widgettitle">',
-        'after_title'   => '</h2>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    register_sidebar(array(
+        'name'          => __('aside-droite', 'themerealise'),
+        'id'            => 'sidebar-2',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
     ));
 };
 
