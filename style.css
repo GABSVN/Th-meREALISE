@@ -1,5 +1,16 @@
+/*
+Theme Name: Theme Realise
+Theme URI: https://github.com/GABSVN/Theme-wp-REALISE
+Author: La Realise WordPress team
+Author URI: https://www.realise.ch/fr/formations-coaching-la-formation-digitale
+Description: Se theme permet l'ajout d'un logo personel et d'une barre de recherche dans le header. De rajouter une ou deux sidebar(s) et un ou deux footer(s) en plus d'un deja en place.
+Version: 1.0
+*/
+
+
 aside{
     height: 100%;
-    background-color: rgb(195, 227, 255);
+    
+    background-color: rgb(3, 135, 251);
     width: 20%;
 }
