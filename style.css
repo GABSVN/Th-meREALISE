@@ -6,11 +6,27 @@ Author URI: https://www.realise.ch/fr/formations-coaching-la-formation-digitale
 Description: Se theme permet l'ajout d'un logo personel et d'une barre de recherche dans le header. De rajouter une ou deux sidebar(s) et un ou deux footer(s) en plus d'un deja en place.
 Version: 1.0
 */
+body{
+    display: flex;
+    width: 60%;
+}
 
-
-aside{
+#block-8{
     height: 100%;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
     background-color: rgb(3, 135, 251);
+    width: 20%;
+}
+
+#block-9{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgb(156, 3, 251);
     width: 20%;
 }
