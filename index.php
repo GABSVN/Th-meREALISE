@@ -2,6 +2,7 @@
 
 
 <?php get_header(); ?>
+<?php get_sidebar( 'aside-gauche' ); ?>
 <main class="wrap">
   <section class="content-area content-thin">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -19,4 +20,5 @@
 <?php endif; ?>
   </section><?php get_sidebar(); ?>
 </main>
+<?php get_sidebar( 'aside-droite' ); ?>
 <?php get_footer(); ?>
